@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    margin: 0;
+    background-color: #e89393;
+}
+.container {
+    width: 200px;
+    height: 300px;
+    position: relative; 
+    border-radius: 20px;    
+}
+.body {
+    width: 150px;
+    height: 150px;
+    background-color: #ffcc66;
+    border-radius: 50%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 0px;
+  
+}
+img{
+    height: 200px;
+    width: 180px;
+    margin-right: 50px;
+    display: flex;
+    background-position: right;
+    border-radius: 10px 10px 90px 90px ;
+    position: relative;
+}
+.left-leg,
+.right-leg {
+    width: 30px;
+    height: 160px;
+    background-color: #f87807;
+    border-radius: 10px;
+}
+.left-leg {
+    margin-right: 65px;
+    border-radius: 70px 10px 70px 0px ;
+}
+.right-leg {
+    margin-left: 20px;
+    border-radius: 10px 70px 0px  70px ;
+}
+.legdiv {
+    background-color: rgb(237, 191, 106);
+    height: 100px;
+    width: 30px;
+    border-radius: 19px;
+    transform: rotate(45deg); /* Rotate the div by 45 degrees */
+}
+.legleft1{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    border-radius: 19px;  
+    border-top : 100px;
+    padding-left: 0px;
+    margin-left: -20px;
+    /* margin-left: 20px; */
+    transform: rotate(30deg);
+   
+}
+.legleft2{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    border-radius: 19px;  
+  
+    /* margin-left: 20px; */
+    transform: rotate(-40deg);  
+}
+.lego{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.cont{
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+    position: relative;
+   padding-top: 100px;
+    display: flex;
+    justify-content:center;
+    border-radius: 20px;
+    box-shadow: 17px 20px 14px  black;
+
+}
+.name{
+     font-family: cursive;
+     font-size: 100px;
+     font-weight: 300;
+     margin-bottom: 10px;
+}

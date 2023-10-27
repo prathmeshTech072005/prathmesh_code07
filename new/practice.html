@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice class</title>
+    <style>
+        .container{
+            position: relative;
+        }
+        .box{
+            height: 100px;
+            width: 700px;
+            
+            
+        }
+        .bo1{
+ 
+            background-color: aqua;
+            z-index: 10;
+
+            
+       
+        }
+        .bo2{
+            background-color: red;
+            z-index: 8;
+            position: relative;
+            opacity: 0.8;
+           
+        }
+        .bo3{
+            background-color: chartreuse;
+            position:absolute;
+            z-index: 0; 
+        }
+        p{
+            line-height: 30px;
+            letter-spacing: 2px;
+            text-shadow: 0px 0px 1px red;
+            text-align: center;
+
+        
+        }
+        .email{
+            height: 400px;
+            filter: blur(4px);
+            filter: contrast(1.2);
+            filter: drop-shadow(10);
+            filter: saturate(2);
+            filter: invert();
+        }
+        #car{
+               filter: brightness();
+               filter: contrast(1);
+               filter: saturate(3);
+        }
+        video{
+            height: 500px;
+            width: 700px;
+            display: flex;
+            justify-content: center;
+        }
+        .font{
+            font-variant: small-caps;
+        }
+        h2{
+            color: rgb(4, 21, 14);
+        }
+        
+        h3{
+            border: 2px solid black;
+        }
+        h3:hover{
+            padding: 10px;
+            border: 8px solid red;
+            transition: 2s;
+        }
+        .ul1{
+            list-style-type: "😍 ";
+        }
+        .ul2{
+            list-style-type: "❤  ";
+        }
+        .ul3{
+            list-style-type: "😇  ";
+        }
+        .ul4{
+            list-style-type:"💕  ";
+        
+        }
+        .btn1{
+            background-color: aquamarine;
+            border: none;
+            box-shadow: 6px 2px rgb(122, 121, 119);
+        }
+        .btn1:hover{
+            padding: 10px;
+            transition: 2s;
+            margin-left: 20px;
+        }
+        .btn2{
+            border-color:red ;
+            background-color: rgb(255, 255, 255);
+            padding-left:10px ;
+            padding-right: 10px;
+            border-radius: 10px;
+            
+        }
+        .text{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+            font-family: cursive;
+            overflow: scroll;
+            height: 100px;
+
+        }
+        img.img1{
+            height: 50px;
+            float: center;
+        }
+        .h1{
+           
+        }
+        .h1:hover{
+            font-size: 20px;
+            font-family: cursive;
+            font-weight: 600;
+            text-decoration: underline;
+            transition: 1.3s;
+            
+
+        }
+        .card{
+            height: 400px;
+            width: 300px;
+            background-color: rgb(171, 201, 201);
+            display: block;
+            justify-content: center;
+            padding: 10px;
+            box-shadow: 12px 13px 9px black;
+           
+        }
+        .img-card{
+           display: flex;
+           height: 200px;
+          border-radius: 100%;
+
+        }
+        .row#heading1{
+            padding-left: 10px;
+        }
+        .button1{
+            justify-content: center;
+            background-color: rgb(72, 72, 235);
+            color: azure;
+            border-radius: 13%;
+            border: none;
+            font-size: 15px;
+            padding: 7px;
+            box-shadow: 2px 3px 3px black;
+
+            
+           
+
+        }
+        .buton{
+            justify-content: center;
+            display: flex;
+            box-sizing: 30px;
+            
+        }
+        button{
+            margin-left:10px;
+            border-radius: 1px;
+           border: 0.2px solid black;
+
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>THis is Z-index elements </h1>
+    <div class="container">
+        <div class="box bo1">z-index 1</div>
+        <div class="box bo2">z-index 2 </div>
+        <div class="box bo3">z- index 3</div>
+    </div>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit aspernatur aperiam officia, odit obcaecati recusandae laborum hic quae facilis tempore sed eum ut quisquam iure beatae praesentium esse? </p>
+    <img class="email" src="email copy.png" alt="">
+    <img id="car" src="car1.jpg" alt="">
+
+  <video controls 
+  src="my_vedio.mp4">xfsgf</video>
+
+  <h1>Font variant </h1>
+
+  <p class="font">
+    this is font varient 
+  </p>
+
+
+  <h2>This is Prathmesh Sargar...!!</h2>
+  <h3> this well be change their position ok ...!</h3>
+
+<h1> List style type </h1>
+
+<ul class="ul1">
+    <li>Hello CSS</li>
+    <li> this is circle</li>
+</ul>
+<ul class="ul2">
+    <li>Hello CSS</li>
+    <li> this is square</li>
+</ul>
+<ul class="ul3">
+    <li>Hello CSS</li>
+    <li> this is </li>
+</ul>
+<ul class="ul4">
+    <li>Hello CSS</li>
+    <li> this is circle</li>
+</ul>
+
+<button class="btn1">Submit</button>
+<button class="btn2">Seclect</button>
+<button class="btn3">Login</button>
+
+<br><br>
+<div class="text">
+    
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum placeat debitis aliquam sequi cupiditate ex perspiciatis qui, dolore ullam unde repellat, cum expedita, eligendi minima voluptatibus? Quasi ad magnam, et eveniet commodi ab esse magni enim maiores, cupiditate molestias iste, molestiae facilis mollitia praesentium dolorem saepe eaque delectus illum vero!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, delectus sed impedit, animi atque hic rerum nemo fugit voluptatum architecto excepturi, iure omnis non? Consequatur amet consectetur optio dolorum. Nulla, ipsam pariatur ex velit recusandae maxime nam asperiores. Eum nihil iusto rerum similique doloribus laborum vitae soluta dicta sed odit repudiandae voluptates ratione, ut reiciendis corporis error, veritatis praesentium a perspiciatis ipsa fugiat? Vitae incidunt, natus facilis perferendis delectus sequi maxime aspernatur corporis harum impedit ab fuga quis aut distinctio laboriosam suscipit quia veritatis! Iusto accusamus officiis, sapiente labore vel sequi sint in fugiat, placeat vero non, eligendi debitis et.
+</div>
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nemo exercitationem, dolore, ipsum at vero tempore 
+<img class="img1" src="email copy.png" alt="">odit quisquam eaque eius dolor aperiam voluptate? Aut magni, reiciendis laudantium ad odit quod distinctio fugit perferendis vitae quam explicabo velit adipisci nesciunt maxime.
+</body>
+</html>
+<br>
+<div class="h1">
+    Prathmesh sargar
+</div>
+
+
+
+<br><br><b><br>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum culpa velit ut odit, obcaecati consequuntur repellat suscipit, laudantium ipsa, aliquam repudiandae illo provident excepturi. Impedit magnam reprehenderit ipsa. Est nostrum libero veniam doloremque cum amet iusto laudantium, ipsum, similique quam qui dolorem aliquam velit ut commodi incidunt eligendi quos, autem beatae natus et. Architecto cupiditate excepturi nam, autem harum perferendis! Excepturi repellat, eaque nisi molestias aut nam facilis eveniet consequatur ducimus magni autem, veniam quisquam nihil quis laboriosam vero ipsa quibusdam tenetur dolorem minus corrupti qui? Quidem, cum sit? Magnam, exercitationem debitis. Similique dolorem pariatur doloremque reiciendis maiores, temporibus quae quisquam consequuntur hic repudiandae magnam culpa doloribus quia velit sint. Maiores omnis nobis expedita optio dolorum odit architecto, rem assumenda eaque iste recusandae ex ipsam harum facilis quibusdam saepe veritatis.
+
+
+
+    <h1>card making program in javaScript ok </h1>
+
+    <div class="card">
+        <div class="img-card">
+            <img src="nature.png" alt="">
+
+        </div><br>
+        <button>nature</button> <button>like </button>
+        <h2 class="row" id="heading1">Nature Beauty</h2>
+
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, accusamus.
+
+        <br><br>
+        <div class="buton">
+            <button class="button1">Order now</button>
+        </div>
+       
+
+
+    </div>
